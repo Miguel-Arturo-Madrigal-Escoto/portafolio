@@ -22,7 +22,7 @@ export const Card = ({ id, name, description, url, github, used, }) => {
             </div>
             <div className="card-img">
                 <img 
-                    src={`./assets/${ id }.png`}
+                    src={`https://miguel-arturo-madrigal-escoto.github.io/portafolio/assets/${ id }.png`}
                     alt={ name }
                 />
             </div>

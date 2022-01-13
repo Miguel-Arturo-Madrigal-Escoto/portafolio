@@ -29,7 +29,7 @@ export const Home = () => {
                 </div>
                 <div className="home-img">
                     <img
-                        src="./assets/profile_pic.png" 
+                        src="https://miguel-arturo-madrigal-escoto.github.io/portafolio/assets/profile_pic.png" 
                         alt="fotografia de desarrollador"
                         loading="lazy"
                     />
