@@ -34,7 +34,7 @@ export const Navbar = () => {
                     <div className="nav__profile">
                         <div className="nav__img">
                             <img 
-                                src="/assets/profile_pic.png" 
+                                src="./assets/profile_pic.png" 
                                 alt="imagen del perfil de desarrollador" 
                                 loading="lazy" 
                             />
