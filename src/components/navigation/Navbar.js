@@ -40,7 +40,7 @@ export const Navbar = () => {
                             />
                         </div>
                         <div className="developer_info">
-                            <Link to="/projects" className="nav__name">Miguel Madrigal</Link>
+                            <Link to="/portafolio" className="nav__name">Miguel Madrigal</Link>
                             <span className="nav__profession">Desarrollador</span>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         <ul className="nav__list">
                             <NavItem to="/portafolio" text="Inicio" setShow={ setShow }/>
                             <NavItem to="/projects" text="Proyectos" setShow={ setShow }/>
-                            <NavItem to="/portafolio" text="Habilidades" setShow={ setShow }/>
+                            <NavItem to="/skills" text="Habilidades" setShow={ setShow }/>
                         </ul>
                     </div>
                     

@@ -1,0 +1,37 @@
+:root {
+    --first-color: #223e92;
+    --dark-color: #0a0b0c;
+    --dark-color-alt: #282b3a;
+    --white-color: #e6e7e9;
+}
+
+.set {
+    padding: 24px;
+    border-radius: 16px;
+    margin: 0;
+    transition: .3s all ease-in-out;
+}
+
+.set:hover {
+    box-shadow: 0px 12px 16px #36363624;
+    cursor: pointer;
+    filter: grayscale(75%);
+    transform: translate(20px, 20px);
+}
+
+.set .header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set .list {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.set h2 {
+    text-align: center;
+    text-transform: capitalize;
+}

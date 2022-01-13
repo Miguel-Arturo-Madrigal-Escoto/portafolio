@@ -41,7 +41,7 @@ const projects = [
     },
     {
         id: 'mis_discos',
-        name: 'App "Mis Discos""',
+        name: 'App "Mis Discos"',
         description: 'Se trata de una aplicación hibrida, la cual recupera desde una RESTFul API información sobre albums de diversos artistas.',
         url: '#',
         github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Proyecto-SSPBD21A-Ionic',
@@ -49,7 +49,7 @@ const projects = [
     },
     {
         id: 'loteria',
-        name: 'Juego de Loteria"',
+        name: 'Juego de Loteria',
         description: 'Se trata del clásico juego de loteria, pero en este caso el software tiene la función de dar las cartas mientras tu te preocupas unicamente por apuntar las fichas que van saliendo.',
         url: '#',
         github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Loteria-Mexicana',

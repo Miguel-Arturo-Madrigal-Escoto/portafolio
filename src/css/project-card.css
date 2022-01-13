@@ -12,7 +12,10 @@
     margin-bottom: 40px;
     min-width: 500px;
     transition: .3s all ease-in-out;
+}
 
+._card-container_:hover{
+    filter: grayscale(50%);
 }
 
 ._card-container_:hover {

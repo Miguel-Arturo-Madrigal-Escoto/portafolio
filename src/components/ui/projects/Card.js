@@ -16,7 +16,7 @@ import '../../../css/project-card.css';
 
 export const Card = ({ id, name, description, url, github, used, }) => {
     return (
-        <div className="_card-container_ animate__animated animate__bounceInLeft">
+        <div className="_card-container_">
             <div className="title">
                 <h2 className="name">{ name }</h2>
             </div>
