@@ -1,0 +1,60 @@
+const projects = [
+    {
+        id: 'campus_carreras',
+        name: 'Campus Carreras',
+        description: 'Es un proyecto para mi escuela preparatoria de origen, se trata de una plataforma para los estudiantes la cual tiene la función de organizar la elección de plazas para las prácticas profesionales, tomando en cuenta como criterio el promedio del alumno.',
+        url: 'http://politecnicamatute.sems.udg.mx/campuscarreras/',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Campus-Carreras',
+        used: ['html5', 'css3', 'javascript', 'php', 'mysql'],
+    },
+    {
+        id: 'new_profes',
+        name: 'New Profes',
+        description: 'Es un proyecto en el cuál los estudiantes de CUCEI pueden consultar opiniones sobre los profesores del centro universitario, además de que pueden dar recomendaciones sobre los mismos para otros estudiantes.',
+        url: 'https://newprofes.42web.io/?i=1',
+        github: '#',
+        used: ['html5', 'css3', 'javascript', 'php', 'mysql'],
+    },
+    {
+        id: 'bot_anchor',
+        name: 'Bot "Anchor"',
+        description: 'Como su nombre lo indica, se trata de un bot para un canal de discord. Es un bot multipropósito el cuál puede hacer múltiples tareas como reproducir música, hacer búsquedas en la web, hacer traducciones en diferentes idiomas, hacer búsquedas en YouTube, mostrar estadisticas de los jugadores en juegos como Fortnite, etc.',
+        url: '#',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Bot-Anchor',
+        used: ['python'],
+    },
+    {
+        id: 'heroes_app',
+        name: 'Heroes App',
+        description: 'Es una página web en la que puedes encontrar información sobre los diversos héroes tanto de Marvel como de DC, además cuenta con un buscador para encontrar más facilmente a un héroe.',
+        url: 'https://miguel-arturo-madrigal-escoto.github.io/HeroesApp/',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/HeroesApp',
+        used: ['html', 'css', 'javascript', 'react'],
+    },
+    {
+        id: 'digital_notes',
+        name: 'Digital Notes',
+        description: 'Es una aplicación  la cual sirve para tomar notas a través del navegador, de esta manera te sirve como un recordatorio de las tareas pendientes. La información se guarda en el propio almacenamiento del navegador.',
+        url: 'https://miguel-arturo-madrigal-escoto.github.io/DigitalNotes/',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/DigitalNotes',
+        used: ['html', 'css', 'javascript', 'react'],
+    },
+    {
+        id: 'mis_discos',
+        name: 'App "Mis Discos""',
+        description: 'Se trata de una aplicación hibrida, la cual recupera desde una RESTFul API información sobre albums de diversos artistas.',
+        url: '#',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Proyecto-SSPBD21A-Ionic',
+        used: ['angular', 'typescript'],
+    },
+    {
+        id: 'loteria',
+        name: 'Juego de Loteria"',
+        description: 'Se trata del clásico juego de loteria, pero en este caso el software tiene la función de dar las cartas mientras tu te preocupas unicamente por apuntar las fichas que van saliendo.',
+        url: '#',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Loteria-Mexicana',
+        used: ['python'],
+    },
+];
+
+export default projects;
