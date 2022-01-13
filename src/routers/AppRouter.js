@@ -9,7 +9,7 @@ export const AppRouter = () => {
             <Router>
                 <Navbar />
                 <Routes>
-                    <Route path="/portafolio/" element={ <Home /> } />
+                    <Route path="/portafolio" element={ <Home /> } />
                     <Route path="/projects" element={ <Projects /> } />
                     <Route path="/" element={ <Home /> } />
                 </Routes>

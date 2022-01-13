@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IoIosClose } from 'react-icons/io';
 import { FiMenu } from 'react-icons/fi';
-import { BsGithub } from 'react-icons/bs'
 
 import { useState } from 'react';
 import { NavItem } from './NavItem';
@@ -15,7 +14,7 @@ export const Navbar = () => {
     return (
         <div className="header">
             
-            <Link to="/projects" className="nav__link header__logo">Miguel Madrigal</Link>
+            <Link to="/portafolio" className="nav__link header__logo">Miguel Madrigal</Link>
 
             <FiMenu 
                 size="1.3rem" 
@@ -35,7 +34,7 @@ export const Navbar = () => {
                     <div className="nav__profile">
                         <div className="nav__img">
                             <img 
-                                src="./assets/profile_pic.png" 
+                                src="/assets/profile_pic.png" 
                                 alt="imagen del perfil de desarrollador" 
                                 loading="lazy" 
                             />
