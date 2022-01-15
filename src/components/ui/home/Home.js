@@ -25,7 +25,7 @@ export const Home = () => {
                             la carrera de Ingeniería en Computación.
                     </p>
                     <div className="cv-container">
-                        <Link to="https://miguel-arturo-madrigal-escoto.github.io/portafolio/files/miguel-madrigal-cv.pdf" target="_blank" download><button className="cv-btn">Descargar CV</button></Link>   
+                        <a href="https://drive.google.com/uc?export=download&id=1638clWsyZOy8dNFezQYhI2tidHfLuIEo" target="_blank" download><button className="cv-btn">Descargar CV</button></a>   
                     </div>     
                 </div>
                 <div className="home-img">
