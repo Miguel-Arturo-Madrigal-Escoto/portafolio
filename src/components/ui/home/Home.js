@@ -25,7 +25,8 @@ export const Home = () => {
                             la carrera de Ingeniería en Computación.
                     </p>
                     <div className="cv-container">
-                        <a href="https://drive.google.com/uc?export=download&id=1638clWsyZOy8dNFezQYhI2tidHfLuIEo" target="_blank" download><button className="cv-btn">Descargar CV</button></a>   
+                        <a href="https://drive.google.com/uc?export=download&id=1YXcSX7-0TRFzN6aSR9bEl1J3YLiklvLe" target="_blank" download><button className="cv-btn">Descargar CV</button></a>   
+                        
                     </div>     
                 </div>
                 <div className="home-img">
