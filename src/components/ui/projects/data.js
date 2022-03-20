@@ -16,6 +16,14 @@ const projects = [
         used: ['html5', 'css3', 'javascript', 'php', 'mysql'],
     },
     {
+        id: 'journal_app',
+        name: 'Journal App',
+        description: 'En esta aplicación podrás guardar notas con imágenes en tu perfil, iniciando sesión en con tu cuenta de Google desde cualquier sitio.',
+        url: 'https://journal-app-93d84.web.app',
+        github: '#',
+        used: ['html', 'css', 'javascript', 'react', 'redux', 'firebase'],
+    },
+    {
         id: 'bot_anchor',
         name: 'Bot "Anchor"',
         description: 'Como su nombre lo indica, se trata de un bot para un canal de discord. Es un bot multipropósito el cuál puede hacer múltiples tareas como reproducir música, hacer búsquedas en la web, hacer traducciones en diferentes idiomas, hacer búsquedas en YouTube, mostrar estadisticas de los jugadores en juegos como Fortnite, etc.',
