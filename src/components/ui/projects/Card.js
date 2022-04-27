@@ -10,7 +10,10 @@ import {
     SiAngular,
     SiTypescript,
     SiRedux,
-    SiFirebase
+    SiFirebase,
+    SiMongodb,
+    SiExpress,
+    SiNodedotjs
 } from 'react-icons/si';
 import '../../../css/project-card.css';
 
@@ -40,12 +43,15 @@ export const Card = ({ id, name, description, url, github, used, }) => {
                                 {   e.includes('javascript') && <SiJavascript size="1.5rem" style={{ 'color': 'F0DB4F', margin: '0 5px' }} />    }
                                 {   e.includes('php') && <SiPhp size="1.5rem" style={{ 'color': '474A8A', margin: '0 5px' }} />  }
                                 {   e.includes('mysql') && <SiMysql size="1.5rem" style={{ 'color': 'F29111', margin: '0 5px' }} />    }
-                                {   e.includes('react') && <SiReact size="1.5rem" style={{ 'color': '61DBFB', margin: '0 5px' }}/>    }
                                 {   e.includes('python') && <SiPython size="1.5rem" style={{ 'color': '4B8BBE', margin: '0 5px' }}/>    }
                                 {   e.includes('angular') && <SiAngular size="1.5rem" style={{ 'color': 'b52e31', margin: '0 5px' }}/>    }
                                 {   e.includes('typescript') && <SiTypescript size="1.5rem" style={{ 'color': '007acc', margin: '0 5px' }} />    }
-                                {   e.includes('redux') && <SiRedux size="1.5rem" style={{ 'color': '764abc', margin: '0 5px' }} />    }
+                                {   e.includes('mongo') && <SiMongodb size="1.5rem" style={{ 'color': '3FA037', margin: '0 5px' }} />    }
+                                {   e.includes('express') && <SiExpress size="1.5rem" style={{ 'color': '333333', margin: '0 5px' }} />    }
+                                {   e.includes('node') && <SiNodedotjs size="1.5rem" style={{ 'color': '44883e', margin: '0 5px' }} />    }
+                                {   e.includes('react') && <SiReact size="1.5rem" style={{ 'color': '61DBFB', margin: '0 5px' }} />    }
                                 {   e.includes('firebase') && <SiFirebase size="1.5rem" style={{ 'color': 'FFA611', margin: '0 5px' }} />    }
+                                {   e.includes('redux') && <SiRedux size="1.5rem" style={{ 'color': '764abc', margin: '0 5px' }} />    }
                             </li>
                     ))
                 }

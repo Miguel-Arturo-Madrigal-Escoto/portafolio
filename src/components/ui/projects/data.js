@@ -8,6 +8,14 @@ const projects = [
         used: ['html5', 'css3', 'javascript', 'php', 'mysql'],
     },
     {
+        id: 'mern_calendar',
+        name: 'MERN Calendar',
+        description: 'Consiste en una aplicación desarrollada con el stack MERN, la cual tiene la funcionalidad de acceder a través de una cuenta y agregar eventos en el calendario, ya sea a través del formulario o con una cuenta de Gmail o GitHub.',
+        url: 'https://mern-calendar-api-v1.herokuapp.com/login',
+        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Mern-Calendar-Backend',
+        used: ['mongo', 'express', 'react', 'node', 'redux', 'firebase'],
+    },
+    {
         id: 'new_profes',
         name: 'New Profes',
         description: 'Es un proyecto en el cuál los estudiantes de CUCEI pueden consultar opiniones sobre los profesores del centro universitario, además de que pueden dar recomendaciones sobre los mismos para otros estudiantes.',
@@ -46,22 +54,6 @@ const projects = [
         url: 'https://miguel-arturo-madrigal-escoto.github.io/DigitalNotes/',
         github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/DigitalNotes',
         used: ['html', 'css', 'javascript', 'react'],
-    },
-    {
-        id: 'mis_discos',
-        name: 'App "Mis Discos"',
-        description: 'Se trata de una aplicación hibrida, la cual recupera desde una RESTFul API información sobre albums de diversos artistas.',
-        url: '#',
-        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Proyecto-SSPBD21A-Ionic',
-        used: ['angular', 'typescript'],
-    },
-    {
-        id: 'loteria',
-        name: 'Juego de Loteria',
-        description: 'Se trata del clásico juego de loteria, pero en este caso el software tiene la función de dar las cartas mientras tu te preocupas unicamente por apuntar las fichas que van saliendo.',
-        url: '#',
-        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/Loteria-Mexicana',
-        used: ['python'],
     },
 ];
 
