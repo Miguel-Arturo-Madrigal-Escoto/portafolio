@@ -17,15 +17,15 @@ export const Home = () => {
                     <a href='https://www.linkedin.com/in/miguel-arturo-madrigal-escoto-794726229' target="_blank"><BsLinkedin className="icon" size="1.8rem" style={{'color': '0077b5'}} /></a>
                 </div>
                 <div className="info">
-                    <h1>Hola, soy Miguel { <MdVideogameAsset size="1.3rem"/> }</h1>
-                    <h2>Desarrollador web</h2>
+                    <h1>Hola, soy Miguel Madrigal{ <MdVideogameAsset size="1.3rem"/> }</h1>
+                    <h2>Desarrollador de software</h2>
                     <p>
-                            Soy programador orientado al desarrollo front-end con experiencia en backend. 
-                            Soy Tecnólogo en Informática y actualmente me encuentro en sexto semestre de 
+                            Soy estudiante y desarrollador de software, orientado tanto al desarrollo front-end como back-end. 
+                            Soy Tecnólogo en Informática y actualmente me encuentro en séptimo semestre de 
                             la carrera de Ingeniería en Computación.
                     </p>
                     <div className="cv-container">
-                        <a href="https://drive.google.com/uc?export=download&id=1YXcSX7-0TRFzN6aSR9bEl1J3YLiklvLe" target="_blank" download><button className="cv-btn">Descargar CV</button></a>        
+                        <a href="https://drive.google.com/uc?export=download&id=1Bzk-ekxCxEbibJqSrIH6X70qv4cdx8Fg" target="_blank" download><button className="cv-btn">Descargar CV</button></a>        
                     </div>     
                 </div>
                 {/* <div className="home-img">
