@@ -40,12 +40,12 @@ const projects = [
         used: ['python'],
     },
     {
-        id: 'heroes_app',
-        name: 'Heroes App',
-        description: 'Es una página web en la que puedes encontrar información sobre los diversos héroes tanto de Marvel como de DC, además cuenta con un buscador para encontrar más facilmente a un héroe.',
-        url: 'https://miguel-arturo-madrigal-escoto.github.io/HeroesApp/',
-        github: 'https://github.com/Miguel-Arturo-Madrigal-Escoto/HeroesApp',
-        used: ['html', 'css', 'javascript', 'react'],
+        id: 'survival_lands',
+        name: 'Survival Lands',
+        description: 'Se trata de un videojuego en tercera dimensión, el cual permite al jugador elegir entre dos diferentes personajes y recolectar un conjunto de items para llegar a la victoria.',
+        url: 'https://play.unity.com/mg/other/survivallands_playable',
+        github: '#',
+        used: ['c#', 'unity'],
     },
     {
         id: 'digital_notes',

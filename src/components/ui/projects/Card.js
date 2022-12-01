@@ -13,7 +13,9 @@ import {
     SiFirebase,
     SiMongodb,
     SiExpress,
-    SiNodedotjs
+    SiNodedotjs,
+    SiCsharp,
+    SiUnity
 } from 'react-icons/si';
 import '../../../css/project-card.css';
 
@@ -52,6 +54,8 @@ export const Card = ({ id, name, description, url, github, used, }) => {
                                 {   e.includes('react') && <SiReact size="1.5rem" style={{ 'color': '61DBFB', margin: '0 5px' }} />    }
                                 {   e.includes('firebase') && <SiFirebase size="1.5rem" style={{ 'color': 'FFA611', margin: '0 5px' }} />    }
                                 {   e.includes('redux') && <SiRedux size="1.5rem" style={{ 'color': '764abc', margin: '0 5px' }} />    }
+                                {   e.includes('c#') && <SiCsharp size="1.5rem" style={{ 'color': '9b4993', margin: '0 5px' }} />    }
+                                {   e.includes('unity') && <SiUnity size="1.5rem" style={{ 'color': '222c37', margin: '0 5px' }} />    }
                             </li>
                     ))
                 }

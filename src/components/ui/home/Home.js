@@ -18,14 +18,14 @@ export const Home = () => {
                 </div>
                 <div className="info">
                     <h1>Hola, soy Miguel Madrigal{ <MdVideogameAsset size="1.3rem"/> }</h1>
-                    <h2>Desarrollador de software</h2>
+                    <h2>Estudiante y desarrollador de software</h2>
                     <p>
-                            Soy estudiante y desarrollador de software, orientado tanto al desarrollo front-end como back-end. 
-                            Soy Tecnólogo en Informática y actualmente me encuentro en séptimo semestre de 
-                            la carrera de Ingeniería en Computación.
+                        Hola, soy estudiante de la carrera de Ingenieria en Computación, buscando trabajar en desarrollo de software.
+                        Me considero una persona organizada, proactiva, buen compañero de equipo y responsable. Realmente me gusta aprender cosas nuevas,
+                        lo cual me permite estar al día con las últimas herramientas y tecnologias.
                     </p>
                     <div className="cv-container">
-                        <a href="https://drive.google.com/uc?export=download&id=12EvFOZ6ntjnkn1fKV55FE3bV-lbmMlm4" target="_blank" download><button className="cv-btn">Descargar CV</button></a>        
+                        <a href="https://drive.google.com/uc?export=download&id=1c1xH92X0_4atOcl79fSk4tlj0guZ0Rbm" target="_blank" download><button className="cv-btn">Descargar CV</button></a>        
                     </div>     
                 </div>
                 {/* <div className="home-img">
